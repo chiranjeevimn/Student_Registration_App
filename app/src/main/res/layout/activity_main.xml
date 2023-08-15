@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Student Registration Form"
+        android:textColor="#D51010"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Student Name"
+        android:textColor="#1DBD0B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        android:textColor="#0E2BCA"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Student USN"
+        android:textColor="#D51010"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/Usn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter USN"
+        android:inputType="text"
+        android:textColor="#0E2BCA"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Student USN"
+        android:textColor="#D51010"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Dep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter User Department"
+        android:inputType="text"
+        android:textColor="#0E2BCA"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/black"
+        android:textSize="20sp"
+        android:textColor="#E2E5E8" />
+
+</LinearLayout>
